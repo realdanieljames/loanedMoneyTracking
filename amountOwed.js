@@ -1,5 +1,5 @@
-let name = getInput(0);
-let payBackAmount = getInput(1)
+
+// let payBackAmount = getInput(1)
 
 let john = 50
 let myra = 20
@@ -23,7 +23,7 @@ function amountOwed(name) {
     }
 }
 
-console.log(amountOwed(name))
+// console.log(amountOwed(name))
 
 
 

@@ -5,27 +5,40 @@
 App Summary := an app that keeps record of money borrowed and money loaned.
 
 ***
-## Prerequisites
 
-$ git clone https://github.com/realdanieljames/loanedMoneyTracking
-You will need to install [node](https://nodejs.org/en/download/) and terminal in order to use the app. 
-
-## Installing 
+## Downloading 'Loaned Money Tracking' App
+Set up the Loaned Money Tracking Application package, by downloading, or cloning from the GitHub link below.
 ```
 $ git clone https://github.com/realdanieljames/loanedMoneyTracking
-$ cd ./loanedMoneyTracking
-
 ```
-## Downloading node
-https://nodejs.org/en/download/
+***
 
-## Installing the Node
+## Installing and Running
+This application is ran by [**node js**](https://nodejs.org/en/about/).    
+download [node here](https://nodejs.org/en/download/), if you do not already have it downloaded.  
+To run the app, use this syntax in your terminal:
 ```
-$ npm init -y
-$ npm i
+$ node main.js [user's name] [user's action] [user's desired amount]
+```
+**Examples**
+``` 
+node main.js sara borrow 1000
+node main.js sara payback 1000
 ```
 
-App Logic := this app receives a users name and displays their already borrowed information.
-node main.js (user's name)
+``` 
+node main.js billybob borrow 300
+node main.js billybob payback 50
+```
 
-Stretch goals := my app will have the ability to calculate and append the user's money deposits (payback), and withdrawals(borrows).
+this will show the user's data of how much money they borrowed, how much money they paid back, and how much money they now owe.
+***
+
+## Technologies Used
+- Javascript
+- Node
+
+***
+
+## What I Learned 
+while creating this app i learned to create personal profiles for users.

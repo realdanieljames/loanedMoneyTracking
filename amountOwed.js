@@ -4,6 +4,7 @@
 let john = 50
 let myra = 20
 let BillyBobJeans = 1500
+let lenderBalance = 100000
 
 
 

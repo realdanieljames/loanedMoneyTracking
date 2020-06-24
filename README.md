@@ -42,3 +42,6 @@ this will show the user's data of how much money they borrowed, how much money t
 
 ## What I Learned 
 while creating this app i learned to create personal profiles for users.
+
+## Stretch Goals
+- 
